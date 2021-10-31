@@ -8,6 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.plcoding.meditationuiyoutube.ui.screen.HomeScreen
 import com.plcoding.meditationuiyoutube.ui.theme.MeditationUIYouTubeTheme
 
 class MainActivity : ComponentActivity() {
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MeditationUIYouTubeTheme {
-
+                HomeScreen()
             }
         }
     }
